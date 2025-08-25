@@ -134,7 +134,7 @@ nav .logo{
   font-size: clamp(12px, 2vw, 16px);
 }
 
-.row1 .Two-row1 .box2 form .form-entry input[type="text"],
+.row1 .Two-row1 .box2 form .form-entry input[type="Name"],
 .row1 .Two-row1 .box2 form .form-entry input[type="email"] {
   border-radius: 20px;
   display: block;
@@ -241,12 +241,12 @@ nav .logo{
 /* Row3 section */
 
 .row3 {
-  width: 90%;
-  height: 500px;  
+  width: 90%;  
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border: solid 2px black;
 }
 
 .row3 .Two-row3 {
@@ -254,7 +254,7 @@ nav .logo{
   flex-direction: column;
   gap: 10px;
   align-items: center;
-  border: solid 2px black;
+  
 }
 
 .row3 .Two-row3 div {
@@ -280,19 +280,91 @@ nav .logo{
 /* Row4 section */
 .row4 {
   width: 90%;
-  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(212, 207, 207, 0.727)
+  border-radius: 10px;
+  
 }
-.row4 .heading{
-  color: aqua;
+.row4 p{
+  margin: 20px;
+  color: rgb(93, 15, 15);
 }
+.row4 div{
+  background-color: aqua;
+  height: 400px;
+  width: 200px;
+  margin: 20px;
+}
+
 
 /* Row5 section */
 .row5 {
   width: 90%;
-  height: 500px;
-  background-color: rgb(177, 189, 212);
+  height: 700px;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
+
+.row5 h3{
+  color: rgb(41, 217, 236);
+
+}
+
+.row5 .Student-container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.row5 .Student-container .Student1{
+  background-color: yellowgreen;
+  width: 80%;
+  height: 130px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.row5 .Student-container .Student2{
+  background-color: yellowgreen;
+  width: 80%;
+  height: 130px;
+  margin: 5px;
+   border-radius: 10px;
+}
+.row5 .Student-container .Student3{
+  background-color: yellowgreen;
+  width: 80%;
+  height: 150px;
+  margin: 5px;
+   border-radius: 10px;
+}
+.row5 .Student-container .Student4{
+  background-color: yellowgreen;
+  width: 80%;
+  height: 130px;
+  margin: 5px;
+   border-radius: 10px;
+}
+.row5 .Student-container p{
+  background-color: aliceblue;
+}
+
+.row5 p{
+  width: 200px;
+  background-color:rgb(41, 217, 236) ;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
 
 /* Media query section */
 
