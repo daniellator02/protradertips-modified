@@ -187,7 +187,6 @@ nav .logo{
 .row2 .Two-row2 {
   width: 80%;
   height: 60vh;
-  border: solid 2px rgb(224, 234, 207);
   background-image: url('./assets/Image/forexChart.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -272,7 +271,6 @@ nav .logo{
   height: 150px;
   border-radius: 20px;
   
-  
 }
 
 .row3 .Two-row3 .secret1{
@@ -333,6 +331,7 @@ nav .logo{
 
 }
 
+
 .row5 .Student-container .Student1{
   background-color: yellowgreen;
   width: 80%;
@@ -379,7 +378,6 @@ nav .logo{
 }
 
 .row5 .outter-p{
-  width: 170px;
   background-color:rgb(41, 217, 236);
   border-radius: 10px;
   padding: 2px;
@@ -389,7 +387,7 @@ nav .logo{
 .row5 .outter-p:hover{
   color:rgb(41, 217, 236);
   background-color: black;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 
 
@@ -409,7 +407,7 @@ nav .logo{
 } */
 
 /* for pc */
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1050px) {
   .row1 {
     width: 70%;
     height: 1000px;
@@ -421,10 +419,54 @@ nav .logo{
     margin-top: 200px;
   }
 
+  .row2 .Two-row2 {
+  width: 80%;
+  height: 65vh;
+  border-radius: 8px;
+  }
+
   .row2,
   .row3,
-  .row4,
-  .row5 {
+  .row4{
     width: 70%;
   }
+
+  .row5{
+    width: 90%;
+    margin-left: 44px;
+  }
+  
+  .row3 {
+    align-items: center;
+  }
+
+  .row3 .One-row3 h4{
+   margin-left: 140px;
+   
+  }
+
+  .row3 .Two-row3 {
+  flex-direction: row; 
+  gap: 10px;
+  }
+
+  .row5 {
+    height: 450px;
+  }
+
+.row5 .Student-container{
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin-bottom: 20px;
+  }
+
+.row5 .Student-container .Student1,
+.row5 .Student-container .Student2,
+.row5 .Student-container .Student3,
+.row5 .Student-container .Student4{
+  width: 47%;
+}
+
+
 }
